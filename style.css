@@ -5,9 +5,8 @@
 }
 
 .instructions {
-    margin: auto;
     text-align: center;
-    margin-top: 25px;
+    margin: 25px auto;
     font-size: 24px;
     font-weight: bold;
 }
