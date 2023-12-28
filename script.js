@@ -28,3 +28,14 @@ function getComputerChoice() {
 // console.log "tie!"
 // Return the results of the game
 
+
+// Ready Player One
+let playerSelection = '';
+let buttons = document.querySelectorAll('button');
+
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function() {
+        playerSelection = buttons[i].textContent.toUpperCase();
+        console.log(playerSelection);
+    });
+}
